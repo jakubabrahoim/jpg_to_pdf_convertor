@@ -13,7 +13,7 @@ from PIL import Image
 
 
 
-path = r'C:\Users\jakub\Downloads\bormanga_com' # r - raw string
+path = r'C:\Users\jakub\Downloads' # r - raw string
 
 number_of_files = len(fnmatch.filter(os.listdir(path), '*.jpg'))
 
